@@ -332,6 +332,18 @@ pluggy = ">=0.12,<2.0"
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "xmlschema"]
 
 [[package]]
+name = "types-cffi"
+version = "1.15.1.5"
+description = "Typing stubs for cffi"
+category = "dev"
+optional = false
+python-versions = "*"
+files = [
+    {file = "types-cffi-1.15.1.5.tar.gz", hash = "sha256:6d5491337d327e243234090e3cd0f35e945c25ab0f0d0987849f0a1bf9f1a5b5"},
+    {file = "types_cffi-1.15.1.5-py3-none-any.whl", hash = "sha256:8ef370e53205bee4467974ab5f203a261d0f632416788f965b7762d7bd06ef50"},
+]
+
+[[package]]
 name = "typing-extensions"
 version = "4.5.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
@@ -346,4 +358,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b6a8499afeeb6575e5400782860f51a7e7593f83e1b680e56d43fdcf65bf0639"
+content-hash = "adadf18e483ff095ddc6082efdeec1aac4ad6b7bdfda5705e89482f89cf05710"
