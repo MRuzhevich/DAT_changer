@@ -1,6 +1,6 @@
 # Project ignores
 *.pyc
-*/out
+**/*out
 
 # Prerequisites
 *.d
